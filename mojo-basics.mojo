@@ -5,3 +5,8 @@ fn do_math():
     print("Sum:", sum)
 
 do_math()
+
+
+fn adder(a:Int, b:Int) -> Int:
+    return a + b
+print("Sum = ",adder(10, 10))
