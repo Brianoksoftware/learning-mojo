@@ -14,6 +14,12 @@ print("Sum = ",adder(10, 10))
 fn calcu():
     var x:Int = 3
     var y:Int = 2
+
     var prod:Int = x * y
     print("Product = ", prod)
 calcu()
+
+
+fn summer(a:Int, b:Int) -> Int:
+    return a + b
+print("Sum:",summer(3,7))
