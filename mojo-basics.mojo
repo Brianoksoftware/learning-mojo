@@ -23,3 +23,9 @@ calcu()
 fn summer(a:Int, b:Int) -> Int:
     return a + b
 print("Sum:",summer(3,7))
+
+
+var z:Int = 3
+squared_val = z**2
+print("Squared value:", squared_val)
+
